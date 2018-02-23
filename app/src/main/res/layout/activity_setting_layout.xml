@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
 
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal"
@@ -17,14 +16,13 @@
     <TextView
         android:id="@+id/sip_account_setting"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
-        android:layout_alignParentEnd="true"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="9dp"
         android:fontFamily="casual"
         android:text="@string/sip_account_setting"
         android:textAllCaps="true"
-        android:textSize="28sp"
+        android:textSize="24sp"
         android:textStyle="bold" />
 
     <EditText
@@ -33,11 +31,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/sip_account_setting"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="76dp"
         android:ems="10"
+        android:hint="Display Name"
         android:inputType="textPersonName"
-        android:text="@string/display_name"
-        tools:text="@string/display_name" />
+        android:text="@string/display_name" />
 
     <EditText
         android:id="@+id/user_name"
@@ -47,6 +45,7 @@
         android:layout_below="@+id/display_name"
         android:layout_marginTop="20dp"
         android:ems="10"
+        android:hint="User Name"
         android:inputType="textPersonName"
         android:text="@string/user_name" />
 
@@ -58,6 +57,7 @@
         android:layout_below="@+id/user_name"
         android:layout_marginTop="21dp"
         android:ems="10"
+        android:hint="Password"
         android:inputType="textPassword"
         android:text="@string/password" />
 
@@ -69,6 +69,7 @@
         android:layout_below="@+id/password"
         android:layout_marginTop="19dp"
         android:ems="10"
+        android:hint="Authorization User name"
         android:inputType="textPersonName"
         android:text="@string/authorization_user_name" />
 
@@ -80,16 +81,16 @@
         android:layout_below="@+id/authorization_user_name"
         android:layout_marginTop="28dp"
         android:ems="10"
+        android:hint="Domain IP"
         android:inputType="textPersonName"
         android:text="@string/domain" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="120dp"
-        android:layout_height="75dp"
+        android:layout_height="60dp"
         android:layout_alignEnd="@+id/domain"
         android:layout_below="@+id/domain"
-        android:layout_marginEnd="47dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginEnd="64dp"
         android:text="@string/submit" />
 </RelativeLayout>

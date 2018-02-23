@@ -18,13 +18,13 @@
     <string name="num0">0</string>
     <string name="numhash">#</string>
     <string name="title_activity_settings">Sip Account Settings</string>
-
+    <string name="titlescreen">VoIPCALL</string>
     <!-- Strings related to login -->
-    <string name="display_name">Display name</string>
-    <string name="user_name">User Name</string>
-    <string name="password">Password</string>
-    <string name="authorization_user_name">Authorization User Name</string>
-    <string name="domain">Domain</string>
+    <string name="display_name"></string>
+    <string name="user_name"></string>
+    <string name="password"></string>
+    <string name="authorization_user_name"></string>
+    <string name="domain"></string>
     <string name="sip_account_setting">Sip Accounts Settings</string>
     <string name="submit">SUBMIT</string>
     <string name="title_activity_setting_layout">setting_layout</string>

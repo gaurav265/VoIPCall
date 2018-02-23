@@ -16,10 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".setting_layout"
-            android:label="@string/title_activity_setting_layout"
-            android:theme="@style/AppTheme"></activity>
+        <activity android:name=".setting_layout">
+
+            <intent-filter>
+                <action android:name="android.intent.action.DEFAULT" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>
